@@ -9,7 +9,16 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello SwiftUI 🚀")
+        VStack{
+            ZStack {
+                Image(systemName: "circle")
+                    .font(.system(size: 72, weight: .light))
+                Image(systemName: "bus")
+                    .font(.system(size: 40))
+            }.foregroundColor(.blue)
+            Text("Hello SwiftUI")
+                .font(.system(size: 24, weight: .bold))
+        }
     }
 }
 
