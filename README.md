@@ -1,2 +1,0 @@
-# RickAndMorty
-RickAndMorty SwiftUI application
